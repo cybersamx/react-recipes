@@ -1,3 +1,4 @@
-# React Basic
+# Basic React (TypeScript) Example
 
-Basic React example.
+Simple project to demonstrate React project setup using TypeScript.
+
