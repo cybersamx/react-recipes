@@ -43,7 +43,7 @@ Temporary Items
 /coverage
 
 # next.js
-/.next/
+.next
 /out/
 
 # production
@@ -78,6 +78,7 @@ logs
 
 node_modules
 bower_components
+package-lock.json
 
 ### Graphics ###
 *.sublime*
