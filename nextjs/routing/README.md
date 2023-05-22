@@ -1,6 +1,6 @@
-# Basic Next.js React
+# Next.js Routing
 
-Simple project to demonstrate React project setup using Next.js.
+Simple project to demonstrate Next.js routing.
 
 ## Setup
 

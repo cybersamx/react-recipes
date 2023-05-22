@@ -1,4 +1,4 @@
-# Basic Next.js React Example
+# Basic Next.js React
 
 Simple project to demonstrate React project setup using Next.js.
 

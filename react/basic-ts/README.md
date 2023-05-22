@@ -1,4 +1,4 @@
-# Basic React (TypeScript) Example
+# Basic React (TypeScript)
 
 Simple project to demonstrate React project setup using TypeScript.
 

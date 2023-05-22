@@ -1,4 +1,4 @@
-# Basic Bootstrap React Example
+# Basic Bootstrap React
 
 Simple project to demonstrate React project setup using Bootstrap 5.
 

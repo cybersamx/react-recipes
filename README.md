@@ -15,6 +15,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 
 * [Basic Next.js](nextjs/basic)
 * [Basic Next.js (App dir)](nextjs/basic-app)
+* [Next.js routing](nextjs/routing)
 
 ## Reference
 

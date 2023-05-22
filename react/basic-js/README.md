@@ -1,4 +1,4 @@
-# Basic React (JavaScript) Example
+# Basic React (JavaScript)
 
 Simple project to demonstrate React project setup using JavaScript.
 
