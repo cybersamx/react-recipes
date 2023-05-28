@@ -15,8 +15,10 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 
 * [Basic Next.js](nextjs/basic)
 * [Basic Next.js (App dir)](nextjs/basic-app)
-* [Next.js routing](nextjs/routing)
-* [Simple NextAuth.js auth](nextjs/next-auth)
+* [Material UI (SSR)](nextjs/mui)
+* [NextAuth.js auth](nextjs/next-auth)
+* [Routing](nextjs/routing)
+* [Storybook](nextjs/storyboard)
 
 ## Reference
 

@@ -80,6 +80,10 @@ node_modules
 bower_components
 package-lock.json
 
+### Storybook ###
+
+storybook-static/
+
 ### Graphics ###
 *.sublime*
 

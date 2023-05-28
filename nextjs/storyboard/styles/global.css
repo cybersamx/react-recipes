@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.storybook-banner {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storybook-banner svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-banner h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-banner button + button {
+  margin-left: 10px;
+}
+
+.storybook-banner .welcome {
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #0d6efd;
+}
+
+.storybook-button--secondary {
+  color: white;
+  background-color: #6c757d;
+}
+
+.storybook-button--outline-primary {
+  color: #0d6efd;
+  background-color: white;
+  box-shadow: #0d6efd 0px 0px 0px 1px inset;
+}
+
+.storybook-button--outline-secondary {
+  color: #6c757d;
+  background-color: white;
+  box-shadow: #6c757d 0px 0px 0px 1px inset;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
