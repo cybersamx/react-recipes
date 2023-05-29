@@ -1,6 +1,6 @@
 # Next.js Routing
 
-Simple project to demonstrate Next.js routing.
+Simple project that demonstrates Next.js routing.
 
 ## Setup
 
@@ -8,7 +8,7 @@ Simple project to demonstrate Next.js routing.
 
    ```shell
    npm install
-   npm start
+   npm run dev
    ```
 
 1. Navigate to <http://localhost:3000>.

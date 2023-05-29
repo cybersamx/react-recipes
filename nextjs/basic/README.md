@@ -1,6 +1,6 @@
-# Basic Next.js React
+# Basic Next.js
 
-Simple project to demonstrate React project setup using Next.js.
+Simple project that demonstrates a basic Next.js project setup.
 
 ## Setup
 
@@ -8,7 +8,7 @@ Simple project to demonstrate React project setup using Next.js.
 
    ```shell
    npm install
-   npm start
+   npm run dev
    ```
 
 1. Navigate to <http://localhost:3000>.

@@ -1,6 +1,6 @@
-# Material-UI Basic
+# Material-UI Next.js Basic
 
-Simple project to demonstrate React project setup using Material-UI (Server-Side Rending).
+Simple project that demonstrates Next.js project setup using Material-UI (Server-Side Rending).
 
 ## Setup
 
@@ -8,7 +8,7 @@ Simple project to demonstrate React project setup using Material-UI (Server-Side
 
    ```shell
    npm install
-   npm start
+   npm run dev
    ```
    
 1. Navigate to <http://localhost:3000>.

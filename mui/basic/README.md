@@ -1,6 +1,6 @@
 # MaterialUI Basic
 
-Simple project to demonstrate React project setup using MaterialUI.
+Simple project that demonstrates React project setup using MaterialUI.
 
 ## Setup
 

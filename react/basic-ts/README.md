@@ -1,6 +1,6 @@
 # Basic React (TypeScript)
 
-Simple project to demonstrate React project setup using TypeScript.
+Simple project that demonstrates React project setup using TypeScript.
 
 ## Setup
 

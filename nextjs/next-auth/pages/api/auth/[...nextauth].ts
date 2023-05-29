@@ -1,5 +1,9 @@
-import NextAuth, { type NextAuthOptions } from "next-auth";
-import CredentialsProvider from "next-auth/providers/credentials";
+import NextAuth, { type NextAuthOptions } from 'next-auth';
+import CredentialsProvider from 'next-auth/providers/credentials';
+
+function sleep(duration: number) {
+  return new Promise(resolve => setTimeout(resolve, duration));
+}
 
 const emailCredsProvider = CredentialsProvider({
   credentials: {
@@ -21,7 +25,7 @@ const emailCredsProvider = CredentialsProvider({
     }
 
     // Induce some delay.
-    await setTimeout(() => {}, 2000);
+    await sleep(2000)
 
     return {
       id: '123',

@@ -1,6 +1,6 @@
 # Basic React (JavaScript)
 
-Simple project to demonstrate React project setup using JavaScript.
+Simple project that demonstrates React project setup using JavaScript.
 
 ## Setup
 

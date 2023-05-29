@@ -1,6 +1,6 @@
 # Simple Storybook in Next.js
 
-Simple project to demonstrate how Storyboard can be used in Next.js.
+Simple project that demonstrates how Storyboard can be used in Next.js.
 
 ## Setup
 

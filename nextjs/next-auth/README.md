@@ -1,6 +1,6 @@
 # Simple Auth using NextAuth.js
 
-Simple project highlights a simple authentication flow using the NextAuth.js framework.
+Simple project that highlights a simple authentication flow using the NextAuth.js framework.
 
 ## Setup
 
