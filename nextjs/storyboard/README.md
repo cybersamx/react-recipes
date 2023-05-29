@@ -50,3 +50,4 @@ Here's the process on how this project was created.
 ## Reference/Credits
 
 * [Storybook for React Tutorial](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/)
+* [Storybook Addon Next](https://storybook.js.org/addons/storybook-addon-next)

@@ -19,6 +19,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [NextAuth.js auth](nextjs/next-auth)
 * [Routing](nextjs/routing)
 * [Storybook](nextjs/storyboard)
+* [Tailwind](nextjs/tailwind)
 
 ## Reference
 
