@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+  By default, the body bgcolor is white and black in light and dark mode respectively.
+  We override the settings.
+*/
+@layer base{
+  body {
+    @apply bg-white dark:bg-stone-700
+  }
+}

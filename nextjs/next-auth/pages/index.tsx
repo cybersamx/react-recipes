@@ -17,12 +17,13 @@ export default function Home() {
     const target = e.currentTarget as typeof e.currentTarget & {
       username: { value: string };
       password: { value: string };
-    }
+    };
+
     const res = await signIn('credentials', {
       redirect: false,
       username: target.username.value,
       password: target.password.value,
-    })
+    });
 
     setLoading(false);
 

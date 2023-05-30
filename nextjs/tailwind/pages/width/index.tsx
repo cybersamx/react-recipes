@@ -2,8 +2,6 @@ import Head from 'next/head';
 
 import { sizes } from '@/constants';
 
-console.log(sizes);
-
 const reversedSizes = [...sizes].reverse();
 
 export default function Home() {
