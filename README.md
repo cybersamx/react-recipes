@@ -4,22 +4,25 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 
 ## React
 
-* [Basic React](react/basic-ts)
-* [Basic React (JavaScript)](react/basic-js)
+* [Basic React project](react/basic-ts) - Basic react (typescript) project using CRA.
+* [Basic React (JavaScript) project](react/basic-js) - Basic react (javascript) project using CRA.
 
-## React Bootstrap 5
+## React Bootstrap
 
-* [Basic React Bootstrap](bootstrap/basic)
+* [Basic React-Bootstrap project](bootstrap/basic) - Basic react project with Bootstrap.
 
 ## Next.js
 
-* [Basic Next.js](nextjs/basic)
-* [Basic Next.js (App dir)](nextjs/basic-app)
-* [Material UI (SSR)](nextjs/mui)
-* [NextAuth.js auth](nextjs/next-auth)
-* [Routing](nextjs/routing)
-* [Storybook](nextjs/storyboard)
-* [Tailwind](nextjs/tailwind)
+* [Basic Next.js](nextjs/basic) - Basic next.js project.
+* [Basic Next.js (App dir)](nextjs/basic-app) - Basic next.js project using app directory programming model.
+* [Material-UI project](nextjs/mui) - Simple next.js project using material-ui for server-side rending (SSR).
+* [NextAuth project](nextjs/next-auth) - For authentication workflow using next-auth.
+* [Routing](nextjs/routing) - Demonstrates simple routing in next.js.
+* [Storybook](nextjs/storyboard) - Integrate storybook to a next.js project for component-oriented development.
+* [Tailwind](nextjs/tailwind) - Collection of tailwind recipes.
+  * [Colors](nextjs/tailwind/pages/color) - Palette of tailwind colors `*-color-*`.
+  * [Theme](nextjs/tailwind/pages/theme) - Example of switching between dark and light themes in next.js.
+  * [Widths & Heights](nextjs/tailwind/pages/width) - A sample of different widths and heights using tailwind classes `w-*` and `h-*`.
 
 ## Reference
 
