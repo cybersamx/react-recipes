@@ -10,11 +10,13 @@ export default function Home() {
   const router = useRouter();
 
   const handleLogin = async (e: FormEvent) => {
+    // Cancel the default event when a form is submitted, which prevents the
+    // browser from reloading the page.
     e.preventDefault();
     setLoading(true);
 
     // Define the type of the form.
-    const target = e.currentTarget as typeof e.currentTarget & {
+    const target = e.target as typeof e.target & {
       username: { value: string };
       password: { value: string };
     };

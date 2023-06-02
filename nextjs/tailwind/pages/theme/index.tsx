@@ -1,14 +1,13 @@
-import { ChangeEvent, FormEvent, useState } from 'react';
+import { ChangeEvent } from 'react';
 import Head from 'next/head';
 import { useTheme } from 'next-themes';
 
 import { sizes } from '@/constants';
 
-
 export default function Home() {
   const { theme, setTheme } = useTheme();
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  function handleChange(e: ChangeEvent<HTMLInputElement>) {
     const msg = e.target.checked ? 'Checked' : 'Not checked';
 
     const targetTheme = e.target.checked ? 'dark' : 'light';

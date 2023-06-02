@@ -6,6 +6,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 
 * [Basic React project](react/basic-ts) - Basic react (typescript) project using CRA.
 * [Basic React (JavaScript) project](react/basic-js) - Basic react (javascript) project using CRA.
+* [Form handling](react/form) - React form handling.
 
 ## React Bootstrap
 
