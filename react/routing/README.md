@@ -1,6 +1,6 @@
-# Basic React Form Handling
+# Basic React Routing
 
-A react project on handling form in React.
+A react project on routing using the react-router-dom package.
 
 ## Setup
 
