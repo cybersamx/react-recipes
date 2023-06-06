@@ -5,6 +5,7 @@ export default function Home() {
       <ul>
         <li><a href="/use-state">useState</a></li>
         <li><a href="/use-reducer">useReducer</a></li>
+        <li><a href="/use-effect">useEffect</a></li>
       </ul>
     </div>
   );

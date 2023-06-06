@@ -25,7 +25,7 @@ const emailCredsProvider = CredentialsProvider({
     }
 
     // Induce some delay.
-    await sleep(2000)
+    await sleep(2000);
 
     return {
       id: '123',
