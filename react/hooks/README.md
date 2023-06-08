@@ -36,6 +36,7 @@ Specific reach hook functions (source: [React.dev: built-in react hooks](https:/
 * [useState](src/use-state)
 * [useReducer](src/use-reducer)
 * [useEffect](src/use-effect)
+* [useContext](src/use-context)
 
 ## Setup
 

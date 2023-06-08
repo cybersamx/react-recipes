@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 0px;
   padding: 0;
 }
 
@@ -19,3 +19,45 @@ h3 {
   font-size: 18px;
 }
 
+div {
+
+}
+
+.topbar {
+  background: mediumspringgreen;
+  padding: 6px;
+}
+
+div.main-light {
+  padding: 10px;
+  background: white;
+  color: #333333;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+div.main-light a {
+  color: dodgerblue;
+}
+
+div.main-light a:visited {
+  color: mediumpurple;
+}
+
+div.main-dark {
+  padding: 10px;
+  background: #333333;
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+div.main-dark a {
+  color: lightskyblue;
+}
+
+div.main-dark a:visited {
+  color: plum;
+}

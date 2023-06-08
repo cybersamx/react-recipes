@@ -7,7 +7,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [Basic React project](react/basic-ts) - Basic react (typescript) project using CRA.
 * [Basic React (JavaScript) project](react/basic-js) - Basic react (javascript) project using CRA.
 * [Form handling](react/form) - React form handling.
-* [Hooks](react/hooks) - React built-in hooks.
+* [Hooks](react/hooks) - React built-in hooks: useState, useReducer, useEffect, useContext.
 * [Routing](react/routing) - Simple routing using react-router-dom.
 
 ## React Bootstrap

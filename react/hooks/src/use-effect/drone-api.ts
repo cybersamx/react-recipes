@@ -1,3 +1,5 @@
+// This is a mock service.
+
 export type Coordinate = {
   lat: number;
   long: number;

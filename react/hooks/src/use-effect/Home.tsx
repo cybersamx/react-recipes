@@ -1,5 +1,3 @@
-// Based on https://react.dev/reference/react/useEffect
-
 import { ChangeEvent, useEffect, useState } from 'react';
 
 import { Coordinate, connect, disconnect, getRandomCoord, sleep } from './drone-api';
@@ -40,7 +38,7 @@ export default function Home() {
       done = true;
       disconnect();
     };
-  }, [decPoints]);  // Put any reactive variables in the deps param if useEffect is dependent on them.
+  }, [decPoints]);  // Put any reactive variables in the deps param, on which  useEffect is dependent.
 
   function handleChange(e: ChangeEvent<HTMLSelectElement>) {
     const target = e.target as typeof e.target & {
