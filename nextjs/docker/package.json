@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "next": "^13.4.3",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "@types/react": "^18.2.6",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "docker-build": "docker build -t next-docker .",
+    "docker-up": "docker run -p 3000:3000 --rm --name next-docker next-docker",
+    "docker-down": "docker stop next-docker",
+    "start": "next start"
+  }
+}
