@@ -1,6 +1,6 @@
 import styles from './button.module.css';
 
-interface ButtonProps {
+type ButtonProps = {
   color?: string;
   backgroundColor?: string;
   variant?: 'primary' | 'secondary' | 'outline-primary' | 'outline-secondary';

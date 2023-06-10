@@ -5,7 +5,7 @@ type User = {
   name: string;
 }
 
-interface BannerProps {
+type BannerProps = {
   user?: User;
   onLogin?: () => void;
   onLogout?: () => void;

@@ -8,7 +8,7 @@ import { ThemeProvider } from '@mui/material/styles';
 
 const clientEmotionCache = createEmotionCache();
 
-export interface MuiProps extends AppProps {
+export type MuiProps = AppProps & {
   emotionCache?: EmotionCache;
 }
 

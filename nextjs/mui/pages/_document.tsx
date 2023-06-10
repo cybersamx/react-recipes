@@ -19,7 +19,7 @@ import theme, { roboto } from './theme';
 import createEmotionCache from '@/components/emotion-cache';
 import { MuiProps } from './_app';
 
-interface MuiDocumentProps extends DocumentProps {
+type MuiDocumentProps = DocumentProps & {
   emotionStyleTags: JSX.Element[];
 }
 
