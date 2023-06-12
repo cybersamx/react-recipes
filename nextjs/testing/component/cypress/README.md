@@ -1,6 +1,6 @@
-# Component Testing using Cypress
+# Component Testing with Cypress
 
-Mount a react component in the next.js framework and test against the component using cypress.
+End-to-end testing of next.js components using Cypress.
 
 ## Setup
 
@@ -10,7 +10,7 @@ Mount a react component in the next.js framework and test against the component 
 1. Create `cypress/support/component.ts` file, which contains test setups and other global declarations that need to be run before running the tests.
 1. Create `cypress/support/component-index.html` to host the components to be tested.
 1. Add cypress tests.
-1. Run the application.
+1. Test the application.
 
    ```shell
    npm install

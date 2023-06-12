@@ -7,13 +7,14 @@
     "@types/node": "^20.2.1",
     "@types/react": "^18.2.6",
     "cypress": "^12.14.0",
+    "start-server-and-test": "^2.0.0",
     "typescript": "^5.0.4"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "cypress open --component",
-    "test:headless": "cypress run --component"
+    "test": "start-server-and-test dev http://localhost:3000 'cypress open --e2e'",
+    "test:headless": "start-server-and-test dev http://localhost:3000 'cypress run --e2e'"
   }
 }
