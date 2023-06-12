@@ -28,6 +28,8 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
   * [Colors](nextjs/tailwind/pages/color) - Palette of tailwind colors `*-color-*`.
   * [Theme](nextjs/tailwind/pages/theme) - Example of switching between dark and light themes in next.js.
   * [Widths & Heights](nextjs/tailwind/pages/width) - A sample of different widths and heights using tailwind classes `w-*` and `h-*`.
+* [Testing](nextjs/testing) - Testing in next.js.
+  * [Component testing: cypress](nextjs/testing/component/cypress) - Component testing using cypress.
 
 ## Reference
 
