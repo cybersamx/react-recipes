@@ -24,6 +24,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [NextAuth project](nextjs/next-auth) - For authentication workflow using next-auth.
 * [Routing](nextjs/routing) - Simple routing in next.js.
 * [Storybook](nextjs/storyboard) - Integrate storybook to a next.js project for component-oriented development.
+* [SWR](nextjs/swr) - The use of useSWR hook to retrieve data.
 * [Tailwind](nextjs/tailwind) - Collection of tailwind recipes.
   * [Colors](nextjs/tailwind/pages/color) - Palette of tailwind colors `*-color-*`.
   * [Theme](nextjs/tailwind/pages/theme) - Example of switching between dark and light themes in next.js.
