@@ -2,7 +2,6 @@ import {useCallback, Key} from 'react';
 import Head from 'next/head';
 import {
   ChipProps,
-  getKeyValue,
   Table,
   TableHeader,
   TableColumn,
@@ -12,9 +11,9 @@ import {
   Tooltip,
   User,
 } from '@nextui-org/react';
-import {columns, characters} from './data';
 import {Chip} from "@nextui-org/chip";
 
+import {columns, characters} from './data';
 import DeleteIcon from '@/components/delete-icon';
 import EditIcon from '@/components/edit-icon';
 import ViewIcon from "@/components/view-icon";
@@ -96,7 +95,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>React Recipes - Basic Next.js</title>
+        <title>React Recipes - Next.js Table</title>
       </Head>
       <div>
         <Table aria-label="RPG table">
