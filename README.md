@@ -20,7 +20,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [Basic Next.js](nextjs/basic) - Basic next.js project.
 * [Basic Next.js (App dir)](nextjs/basic-app) - Basic next.js project using app directory programming model.
 * [Docker](nextjs/docker) - Dockerize a next.js project.
-* [Form editor](nextjs/form-editor) - A more complex form that performs editing of data.
+* [Form editor](nextjs/form-editor) - A more complex form that performs the editing of data.
 * [Material-UI project](nextjs/mui) - Simple next.js project using material-ui for server-side rending (SSR).
 * [NextAuth project](nextjs/next-auth) - For authentication workflow using next-auth.
 * [Routing](nextjs/routing) - Simple routing in next.js.

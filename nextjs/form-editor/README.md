@@ -1,6 +1,6 @@
-# NextUI Table
+# Form Editor
 
-Simple project using NextUI table.
+A more complex form that performs the editing of data. We implemented a simple Baldur's Gate 3 character creation tool.
 
 ## Setup
 
@@ -12,10 +12,3 @@ Simple project using NextUI table.
    ```
 
 1. Navigate to <http://localhost:3000>.
-
-## Reference and Credits
-
-This project is based on the [NextUI Table example](https://nextui.org/docs/components/table#custom-cells) with 
-images from [Baldur's Gate Wiki](https://bg3.wiki/).
-
-* [NextUI: Table](https://nextui.org/docs/components/table)

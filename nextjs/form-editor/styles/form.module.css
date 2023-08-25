@@ -18,3 +18,6 @@
   @apply grid grid-cols-6 gap-3 mb-4 flex items-center;
 }
 
+.abilityScore {
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg text-center w-1/3;
+}
