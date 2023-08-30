@@ -1,7 +1,12 @@
 import { useRouter } from 'next/router';
+import { ParsedUrlQuery } from 'querystring';
 
 export default function Article() {
   const router = useRouter();
 
-  return <p>Article: {router.query.id}</p>;
+  const { id } = router.query as ParsedUrlQuery & {
+    id?: string;
+  }
+
+  return <p>Article: {id}</p>;
 }
