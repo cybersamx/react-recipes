@@ -10,6 +10,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [Hooks](react/hooks) - React built-in hooks: useState, useReducer, useEffect, useContext.
 * [Props](react/props) - Passing props to React components.
 * [Routing](react/routing) - Simple routing using react-router-dom.
+* [Webpack](react/webpack) - Bundle React (typescript) app in webpack for deployment.
 
 ## React Bootstrap
 
