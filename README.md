@@ -18,6 +18,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 
 ## Next.js
 
+* [API-caller](nextjs/api-caller) - Basic next.js api client caller.
 * [Basic Next.js](nextjs/basic) - Basic next.js project.
 * [Basic Next.js (App dir)](nextjs/basic-app) - Basic next.js project using app directory programming model.
 * [Docker](nextjs/docker) - Dockerize a next.js project.
