@@ -26,23 +26,19 @@ function isUsersResult(ur: any): ur is UsersResult {
   return !!((ur as UsersResult).info);
 }
 
-async function getUser(): Promise<UsersResult | null> {
-  const res = await fetch(`https://randomuser.me/api`);
-  const results = await res.json();
-
-  // Note that `as` is a compile time, not a runtime, construct.
-  // As with any typecasting, we should check if a typecast operation passes/fails.
-  // We use is*** function to validate the type.
-  return (isUsersResult(results)) ? results as UsersResult : null;
-}
-
 export default function Home() {
   const [user, setUser] = useState<User>();
 
   const fetchUser = async () => {
-    const u = await getUser();
+    const res = await fetch(`https://randomuser.me/api`);
+    const results = await res.json();
 
-    if (u && u.results.length) {
+    // Note that `as` is a compile time, not a runtime, construct.
+    // As with any typecasting, we should check if a typecast operation passes/fails.
+    // We use is*** function to validate the type.
+    const u = (isUsersResult(results)) ? results as UsersResult : null;
+
+    if (u && u.results && u.results.length) {
       setUser(u.results[0]);
     }
   }
@@ -51,12 +47,12 @@ export default function Home() {
     // We only fetch a user when the user variable isn't set. Otherwise, we will
     // be fetching users continuously as the page refreshes due to setUser.
     if (!user) {
-      fetchUser().then(err => console.log(err));
+      fetchUser().catch(err => console.log(err));
     }
   }, [user]);
 
   const updateBtn = () => {
-    fetchUser().then(err => console.log(err));
+    fetchUser().catch(err => console.log(err));
   }
 
   return (
