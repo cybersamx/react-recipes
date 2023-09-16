@@ -1,9 +1,8 @@
-# Basic API call Next.js
+# Basic Data Fetching in Next.js
 
-Simple project that demonstrates making calls to an api server, parsing the response, and binding the parsed data 
-into the UI.
+Simple project that demonstrates data fetching from a remote API server, parsing the response, and binding the parsed data with the UI on the client-side.
 
-There are multiple ways to do this:
+There are a few established patterns to do this:
 
 ## useEffect
 
@@ -22,8 +21,11 @@ We can improve on `useEffect` and use a conditional variable to update the state
 
 ## useQuery
 
-We can use a third-party package called `react-query` along with `axios`. The combination allows a design pattern 
-that makes the code much cleaner and robust in support the use case of this example.
+We can use a third-party package called `react-query` along with `axios`. The combination allows a design pattern that makes the code cleaner and more robust in support the use case of this example.
+
+## useSWR
+
+Next.js provides a hook called `useSWR`, which has similar functionality as `useQuery`. It uses the same principle of hydrating a UI with data fetching using 3 possible states of data fetching, data loading, and error handling.
 
 ## Setup
 

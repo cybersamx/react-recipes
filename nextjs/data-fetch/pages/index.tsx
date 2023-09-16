@@ -13,6 +13,7 @@ export default function Home() {
           <li><Link href="use-effect">useEffect</Link></li>
           <li><Link href="use-once">useOnce</Link></li>
           <li><Link href="use-query">useQuery</Link></li>
+          <li><Link href="use-swr">useSWR</Link></li>
         </ul>
       </div>
     </>
