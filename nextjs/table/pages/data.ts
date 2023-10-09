@@ -1,11 +1,11 @@
-const columns = [
+export const columns = [
   {
     key: 'name',
     label: 'Name',
   },
   {
-    key: 'class',
-    label: 'Class',
+    key: 'company',
+    label: 'Company',
   },
   {
     key: 'status',
@@ -17,43 +17,51 @@ const columns = [
   },
 ];
 
-const characters = [
+export type Attendee = {
+  key: number;
+  name: string;
+  company: string;
+  title: string;
+  location: string;
+  status: string;
+  avatarUrl: string;
+}
+
+export const initialAttendees: Attendee[] = [
   {
-    key: '1',
-    name: 'Tav',
-    race: 'Dwarf',
-    class: 'Paladin',
-    level: 6,
+    key: 1,
+    name: 'Dave',
+    title: 'Technician',
+    company: 'Acme',
+    location: 'Chicago',
+    status: 'unpaid',
+    avatarUrl: 'https://randomuser.me/api/portraits/men/34.jpg',
+  },
+  {
+    key: 2,
+    name: 'Dale',
+    title: 'Recruiter',
+    company: 'Acme',
+    location: 'Austin',
     status: 'active',
-    avatarUrl: 'https://bg3.wiki/w/images/2/21/Custom_Character_Portrait.png',
+    avatarUrl: 'https://randomuser.me/api/portraits/men/79.jpg',
   },
   {
-    key: '2',
-    name: 'Gale',
-    class: 'Wizard',
-    race: 'Human',
-    level: 1,
-    status: 'dead',
-    avatarUrl: 'https://bg3.wiki/w/images/3/3f/Gale_Portrait.png',
+    key: 3,
+    name: 'Christina',
+    title: 'Accountant',
+    company: 'A1 Financials',
+    location: 'Los Angeles',
+    status: 'speaker',
+    avatarUrl: 'https://randomuser.me/api/portraits/women/27.jpg',
   },
   {
-    key: '3',
-    name: 'Shadowheart',
-    class: 'Cleric',
-    race: 'Half-Elf',
-    level: 3,
-    status: 'stunned',
-    avatarUrl: 'https://bg3.wiki/w/images/6/6a/Shadowheart_Portrait.png',
-  },
-  {
-    key: '4',
-    name: 'Astarion',
-    race: 'Elf',
-    class: 'Rogue',
-    level: 4,
-    status: 'dazed',
-    avatarUrl: 'https://bg3.wiki/w/images/0/01/Astarion_Portrait.png',
+    key: 4,
+    name: 'Aston',
+    company: '4 Note Software',
+    title: 'Software Engineer',
+    location: 'Los Angeles',
+    status: 'volunteer',
+    avatarUrl: 'https://randomuser.me/api/portraits/men/46.jpg',
   },
 ];
-
-export {columns, characters}

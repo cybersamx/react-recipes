@@ -13,11 +13,14 @@ export default function Home() {
   }
 
   function handleClickUsingArrow() {
-    // We can also pass an arrow function to setCount. The state variable count is
-    // passed as n to the arrow function.
-    setCount((n) => {
-      return n + 1;
+    // setCount also accepts an arrow function that allows us to get the prevState
+    // and make needed calculations.
+
+    console.log(`before setCount: ${count}`);
+    setCount((prevState: number) => {
+      return prevState + 1;
     });
+    console.log(`after setCount: ${count}`);
   }
 
   return (
