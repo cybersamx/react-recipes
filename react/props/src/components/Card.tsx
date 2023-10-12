@@ -1,5 +1,4 @@
 import { PropsWithChildren } from 'react';
-import { ReactNode } from 'react';
 import { parseSize } from './helpers';
 
 type CardProps = PropsWithChildren & {

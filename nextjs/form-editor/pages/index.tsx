@@ -2,7 +2,6 @@ import {MouseEvent, FormEvent, JSX, useState, ChangeEvent} from 'react';
 import Head from 'next/head';
 
 import {CurrentCharContext} from "@/components/context";
-import {capitalize} from "@/common/strings";
 import {budgetFor, Character, defaultBudget, defaultChar, totalAbility, withinAbilityBounds} from "@/common/bg3";
 import styles from '@/styles/form.module.css';
 import AbilityGrid from "@/components/ability-grid";
