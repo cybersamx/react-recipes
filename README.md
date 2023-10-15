@@ -24,7 +24,7 @@ Collection of React and Next.js recipes and learnings. All recipes in TypeScript
 * [Docker](nextjs/docker) - Dockerize a next.js project.
 * [Form editor](nextjs/form-editor) - A more complex form that performs the editing of data.
 * [Material-UI project](nextjs/mui) - Simple next.js project using material-ui for server-side rending (SSR).
-* [Modal dialog](nextjs/modal-form) - Simple next.js modal dialgo.
+* [CustomModal dialog](nextjs/modal) - Simple next.js modal dialgo.
 * [NextAuth project](nextjs/next-auth) - For authentication workflow using next-auth.
 * [Routing](nextjs/routing) - Simple routing in next.js.
 * [Storybook](nextjs/storyboard) - Integrate storybook to a next.js project for component-oriented development.

@@ -17,7 +17,7 @@ import {Chip} from "@nextui-org/chip";
 import {Attendee, initialAttendees, columns} from './data';
 import DeleteIcon from '@/components/delete-icon';
 import EditIcon from '@/components/edit-icon';
-import ViewIcon from "@/components/view-icon";
+import ViewIcon from '@/components/view-icon';
 
 const statusColorMap: Record<string, ChipProps['color']> = {
   active: 'success',
@@ -38,7 +38,7 @@ export default function Home() {
           <User
             avatarProps={{src: attendee.avatarUrl, radius: 'lg'}} // Avatar photo
             name={cellValue}  // Attendee's name as title
-            description={attendee.title} // Attendee's title as ubtitle
+            description={attendee.title} // Attendee's title as subtitle
           >
             {attendee.title}
           </User>
@@ -107,13 +107,13 @@ export default function Home() {
   const removeAttendee = ((attendee: Attendee): MouseEventHandler<HTMLButtonElement> => {
     return (e: MouseEvent<HTMLButtonElement>) => {
       setAttendees((prevState: Attendee[]) => {
-        return [...prevState].filter((item: Attendee) => {
+        return prevState.filter((item: Attendee) => {
           // Retain the attendee not matching the one we need to remove.
           return item.key !== attendee.key;
         });
       });
     };
-  })
+  });
 
   return (
     <>

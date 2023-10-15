@@ -5,9 +5,9 @@ type ModalProps = PropsWithChildren & {
   onClose?: MouseEventHandler;
 }
 
-import styles from '@/styles/modal.module.css';
+import styles from '@/styles/custom-modal.module.css';
 
-export default function Modal({title, onClose, children}: ModalProps) {
+export default function CustomModal({title, onClose, children}: ModalProps) {
   const onClick = (e: MouseEvent<HTMLElement>) => {
     e.preventDefault();
     onClose && onClose(e);
