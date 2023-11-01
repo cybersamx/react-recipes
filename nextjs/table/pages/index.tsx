@@ -121,8 +121,8 @@ export default function Home() {
         <title>React Recipes - Next.js Table</title>
       </Head>
       <div>
-        <Button className="m-3" onClick={addAttendee}>Add Attendee</Button>
-        <Table aria-label="RPG table">
+        <Button className="mx-5 my-3" onClick={addAttendee}>Add Attendee</Button>
+        <Table aria-label="Attendees table" className="px-5">
           <TableHeader columns={columns}>
             {
               (column) => (

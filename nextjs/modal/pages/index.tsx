@@ -7,7 +7,7 @@ import {
   ModalBody,
   ModalFooter,
   Button,
-  useDisclosure
+  useDisclosure,
 } from '@nextui-org/react';
 
 import CustomModal from '@/components/custom-modal';

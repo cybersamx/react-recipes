@@ -2,6 +2,8 @@
 
 Simple project using NextUI table.
 
+![Screenshot](images/screenshot-table.png)
+
 ## Setup
 
 1. Run the application.
@@ -12,6 +14,46 @@ Simple project using NextUI table.
    ```
 
 1. Navigate to <http://localhost:3000>.
+
+## Notes
+
+1. To dynamically construct the table row, we use the following code:
+
+   ```jsx
+   <TableBody items={attendees}>
+     {
+       (item) => (
+         <TableRow key={item.key}>
+           {
+             (colKey) => (
+               <TableCell>{renderCell(item, colKey)}</TableCell>
+             )
+           }
+         </TableRow>
+       )
+     }
+   </TableBody>
+   ```
+   
+   This gives good rendering performance as the rendered content is cached. But there are some cases when we do want 
+   to reload the table whenever there's a page refresh. If that's the case, then we want to use the `map` method to 
+   iterate through the `items` array.
+
+   ```jsx
+   <TableBody>
+     {
+       attendees.map((item) => (
+         <TableRow key={item.key}>
+           {
+             (colKey) => (
+               <TableCell>{renderCell(item, colKey)}</TableCell>
+             )
+           }
+         </TableRow>
+       ))
+     }
+   </TableBody>
+   ```
 
 ## Reference and Credits
 
